@@ -8,20 +8,33 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 600;
+    border: 0;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
 /* header related styles */
 header {
     background: rgba(255, 144, 14, 0.10);
-    padding: 50px 200px;
+    padding: 50px 240px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
 
 }
 
 .nav-title {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     color: #131313;
     font-weight: 700;
 }
@@ -37,4 +50,29 @@ nav li {
 
 nav a {
     text-decoration: none;
+}
+
+/* banner styles */
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #424242;
+}
+
+.banner-description {
+    color: #727272;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.banner img {
+    margin-top: 10px;
+    width: 100%;
 }
