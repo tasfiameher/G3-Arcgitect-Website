@@ -1,0 +1,8 @@
+/* work sans google font */
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Indie+Flower&family=Noto+Serif:wght@600&family=Open+Sans:wght@800&family=Roboto:wght@500&family=Work+Sans:wght@400;600;700&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Work Sans', sans-serif;
+}
